@@ -1,0 +1,6 @@
+.center__container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+}
