@@ -1,3 +1,6 @@
+ul{
+    list-style: none;
+}
 .navBar__container{
     border: 2px solid;
     display: grid;

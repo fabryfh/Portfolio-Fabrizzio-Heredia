@@ -1,10 +1,10 @@
 .center__container{
     border: 2px solid;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 30%;
+    margin-top: 5em;
 }
 .center__container__footer{
     border: 2px solid;
@@ -12,15 +12,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 50%;
+    margin-top: 6em;
 }
 @media (min-width: 700px) {
     .center__container{
-    margin-top: 3%;
     height: 170px;
+    margin-top: 5em;
 }
 .center__container__footer{
-    margin-top: 4%;
+    margin-top: 6em;
 }
     
 }
