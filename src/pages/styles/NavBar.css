@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    height: 150px;
+    height: 180px;
     justify-content: center;
     align-content: center;
 }
@@ -25,4 +25,13 @@
 
 .navBar__list{
     border: 2px solid;
+}
+
+@media (min-width: 700px) {
+    .navBar__list__container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        gap: 0.5em;
+    }
 }
