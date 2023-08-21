@@ -1,6 +1,4 @@
-ul{
-    list-style: none;
-}
+
 .navBar__container{
     border: 2px solid;
     display: grid;
@@ -24,7 +22,6 @@ ul{
     justify-content: center;
     align-content: center;
     text-align: center;
-    padding-right: 1.5em;
     gap: 0.5em;
 }
 
