@@ -8,7 +8,10 @@ const NavBar = () => {
       <section className="navBar__container">
         <div className="navBar__title">
           <Link to='/'>
-          <h1>Desarrollador FullStack</h1>
+            <div className="navBar__name__container">
+          <h1>Fabrizzio</h1>
+          <h3>Heredia</h3>
+            </div>
           </Link>
           <div className="navBar__btn__container">
             <button className="navBar__btn">
@@ -23,16 +26,16 @@ const NavBar = () => {
         </div>
         <ul className="navBar__list__container">
           <Link to='/profile'>
-          <li className="navBar__list">About me</li>
+          <li className="navBar__list">Sobre mi</li>
           </Link>
           <Link to='/projects'>
-          <li className="navBar__list">Projects</li>
+          <li className="navBar__list">Proyectos</li>
           </Link>
           <Link to='/translate'>
-          <li className="navBar__list">Languages</li>
+          <li className="navBar__list">Habilidades</li>
           </Link>
           <Link to='/contact'>
-          <li className="navBar__list">Contact</li>
+          <li className="navBar__list">Contacto</li>
           </Link>
         </ul>
       </section>

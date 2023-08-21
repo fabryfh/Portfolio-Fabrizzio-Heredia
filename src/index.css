@@ -19,4 +19,20 @@ ul{
 }
 button{
     cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+input{
+    outline: none;
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
 }

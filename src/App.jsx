@@ -1,6 +1,6 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import ProyectsPage from './pages/ProyectsPage'
+import ProjectsPage from './pages/ProjectsPage'
 import ProfilePage from './pages/ProfilePage'
 import TranslatePage from './pages/TranslatePage'
 import Page404 from './pages/Page404'
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainInfo/>}/>
         <Route path='/profile' element={<ProfilePage/>}/>
-        <Route path='/projects' element={<ProyectsPage/>}/>
+        <Route path='/projects' element={<ProjectsPage/>}/>
         <Route path='/translate' element={<TranslatePage/>}/>
         <Route path='/contact' element={<ContactPage/>}/>
         <Route path='/*' element={<Page404/>}/>
