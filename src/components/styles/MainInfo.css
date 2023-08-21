@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 .center__container__footer{
     border: 2px solid;
@@ -12,15 +12,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 5em;
+    margin-top: 2.5em;
 }
 @media (min-width: 700px) {
     .center__container{
     height: 170px;
-    margin-top: 4em;
+    margin-top: 2.5em;
 }
 .center__container__footer{
-    margin-top: 5em;
+    margin-top: 2.5em;
 }
     
 }

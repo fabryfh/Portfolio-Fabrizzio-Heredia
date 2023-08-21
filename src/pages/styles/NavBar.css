@@ -32,6 +32,7 @@ ul{
     border: 2px solid;
 }
 
+
 @media (min-width: 700px) {
     .navBar__list__container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
