@@ -1,0 +1,16 @@
+.center__container{
+    border: 2px solid;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20%;
+}
+.center__container__footer{
+    border: 2px solid;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20%;
+}

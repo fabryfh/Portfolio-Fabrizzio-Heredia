@@ -6,6 +6,7 @@ import ProfilePage from './pages/ProfilePage'
 import TranslatePage from './pages/TranslatePage'
 import Page404 from './pages/Page404'
 import NavBar from './pages/NavBar'
+import MainInfo from './components/MainInfo'
 
 
 
@@ -21,9 +22,7 @@ function App() {
         <Route path='/translate' element={<TranslatePage/>}/>
         <Route path='/*' element={<Page404/>}/>
       </Routes>
-      <div className='center__container'>
-        Portfolio borrador
-      </div>
+      <MainInfo/>
     </div>
   )
 }
