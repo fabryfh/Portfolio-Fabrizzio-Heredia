@@ -7,7 +7,7 @@ import Page404 from './pages/Page404'
 import NavBar from './pages/NavBar'
 import MainInfo from './components/MainInfo'
 import ContactPage from './pages/ContactPage'
-
+import NavBarDown from './pages/NavBarDown'
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path='/contact' element={<ContactPage/>}/>
         <Route path='/*' element={<Page404/>}/>
       </Routes>
-      
+      <NavBarDown/>
     </div>
   )
 }
