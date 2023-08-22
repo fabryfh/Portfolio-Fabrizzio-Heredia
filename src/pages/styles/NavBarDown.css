@@ -31,6 +31,9 @@
     margin-top: 1em;
     width: 50px;
 }
+.navBar__down__list:hover{
+    color: var(--color-font-secunday-dark);
+}
 
 @media (min-width: 700px) {
     .navBar__container{
@@ -49,10 +52,5 @@
     }
     .navBar__list{
         font-size: x-large;
-    }
-    .navBar__name__container{
-        font-size: xx-large;
-        display: flex;
-        gap: 0.5em;
     }
 }

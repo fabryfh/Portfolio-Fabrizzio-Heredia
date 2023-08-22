@@ -2,9 +2,9 @@
   /**/
   :root{
     --color-font-primary: rgb(0, 0, 0);
-
+    --color-font-secunday-dark: rgb(255, 255, 255);
     
-    --color-primary: rgba(81,180,232,1);
+    --color-primary: rgb(0, 129, 198);
     --color-secundary: rgb(255, 255, 255);
     
     --color-card-primary: rgba(184,222,255,1);
@@ -16,7 +16,8 @@
 }
 .dark{
     --color-font-primary: rgb(255, 255, 255);
-
+    --color-font-secunday-dark: rgb(168, 168, 168);
+    
     --color-primary: rgba(47,41,88,1);
     --color-secundary:  rgba(83,56,143,1);
 
