@@ -1,5 +1,7 @@
 import "./styles/NavBar.css";
 import { Link } from "react-router-dom";
+import DarkMode from "../components/DarkMode";
+
 
 const NavBar = () => {
   return (
@@ -16,7 +18,7 @@ const NavBar = () => {
             <button className="navBar__btn">
               <span className="material-symbols-outlined">translate</span>
             </button>
-            <button className="navBar__btn">
+            <button className="navBar__btn" onClick={ () => DarkMode()}>
               <span className="material-symbols-outlined">
                 radio_button_partial
               </span>

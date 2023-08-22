@@ -7,8 +7,11 @@
     padding-right: 1.5em;
     justify-content: center;
     align-content: center;
-    background-color: rgba(97, 95, 95, 0.479);
+    /* background-color: rgba(97, 95, 95, 0.479); */
     /* background-color: rgba(0, 0, 0, 0.462); */
+    background-color: var(--color-primary);
+    transition: 0.2s ease-in;
+
 }
 .navBar__title{
     width: 100%;
@@ -22,8 +25,9 @@
     font-size: x-large;
     gap: 0.2em;
     font-weight: 200;
-    color: black;
-    
+    transition: 0.2s ease-in;
+    color: var(--color-font-primary);
+    margin-top: -0.9em;
 }
 
 .navBar__list__container{
@@ -34,22 +38,14 @@
     text-align: center;
     gap: 0.3em;
     padding-left: 10px;
-    transition: 0.1s ease-in-out;
+    transition: 0.2s ease-in;
+    color: var(--color-font-primary);
 }
 
 .close-nav-up{
-    transform: scale(0);
+    transform: scale3d(0);
 }
-.navBar__down__list__container{
-    border: 2px solid;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-evenly;
-    align-content: stretch;
-    text-align: center;
-    gap: 0.3em;
-    margin-top: 100;
-}
+
 .navBar__btn__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -60,13 +56,11 @@
 }
 
 .navBar__list{
-    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in;
+    color: var(--color-font-primary);
+    margin-top: 1.5em;
 }
 
-.navBar__down__list{
-    color: rgb(0, 0, 0);
-    font-size: xx-large;
-}
 
 @media (min-width: 700px) {
     .navBar__container{
@@ -82,10 +76,9 @@
     }
     .navBar__list{
         font-size: x-large;
-        color: rgb(0, 0, 0);
     }
     .navBar__name__container{
-        font-size: xx-large;
+        font-size: x-large;
         display: flex;
         gap: 0.5em;
     }

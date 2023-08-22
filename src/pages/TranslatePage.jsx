@@ -1,7 +1,7 @@
 
 const TranslatePage = () => {
   return (
-    <div>TranslatePage</div>
+    <div>Habilidades</div>
   )
 }
 

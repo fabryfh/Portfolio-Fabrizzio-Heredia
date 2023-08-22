@@ -5,7 +5,7 @@
     transform: scale(1);
 }
 .navBar__down__list__container{
-    border: 2px solid;
+    border: 2px solid var(--color-primary);
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
@@ -18,12 +18,18 @@
     left: 0;
     width: 100%;
     height: 70px;
+    padding: 0em 0.5em;
+    background-color: var(--color-primary);
+    color: var(--color-font-primary);
+    transition: 0.2s ease-in;
 }
 
 .navBar__down__list{
-    color: rgb(0, 0, 0);
-    font-size: xx-large;
-    margin-top: 0.4em;
+    transition: 0.2s ease-in;
+    color: var(--color-font-primary);
+    font-size: large;
+    margin-top: 1em;
+    width: 50px;
 }
 
 @media (min-width: 700px) {
@@ -43,7 +49,6 @@
     }
     .navBar__list{
         font-size: x-large;
-        color: rgb(0, 0, 0);
     }
     .navBar__name__container{
         font-size: xx-large;
