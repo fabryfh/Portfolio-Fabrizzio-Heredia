@@ -1,10 +1,10 @@
   
   /**/
   :root{
-    --color-font-primary: rgb(0, 0, 0);
-    --color-font-secunday-dark: rgb(255, 255, 255);
+    --color-font-primary: rgb(255, 255, 255);
+    --color-font-secunday-dark: rgb(127, 165, 254);
     
-    --color-primary: rgb(0, 129, 198);
+    --color-primary: rgba(47,41,88,1);
     --color-secundary: rgb(255, 255, 255);
     
     --color-card-primary: rgba(184,222,255,1);
@@ -16,10 +16,10 @@
 }
 .dark{
     --color-font-primary: rgb(255, 255, 255);
-    --color-font-secunday-dark: rgb(168, 168, 168);
+    --color-font-secunday-dark: rgb(161, 166, 181);
     
-    --color-primary: rgba(47,41,88,1);
-    --color-secundary:  rgba(83,56,143,1);
+    --color-primary: rgb(0, 0, 0);
+    --color-secundary:  rgb(161, 166, 181);
 
     --color-card-primary: rgba(88,54,179,1);
     --color-card-secundary:  rgba(54,42,132,1);
@@ -27,4 +27,8 @@
     --color-button: #7d69f1;
 
     
+}
+
+body{
+    background-color: var(--color-secundary);
 }
