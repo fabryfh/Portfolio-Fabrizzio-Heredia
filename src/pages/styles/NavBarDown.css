@@ -22,6 +22,7 @@
     background-color: var(--color-primary);
     color: var(--color-font-primary);
     transition: 0.2s ease-in;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .navBar__down__list{

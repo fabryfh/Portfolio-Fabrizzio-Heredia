@@ -18,7 +18,7 @@
     --color-font-primary: rgb(255, 255, 255);
     --color-font-secunday-dark: rgb(161, 166, 181);
     
-    --color-primary: rgb(0, 0, 0);
+    --color-primary: rgb(61, 61, 61);
     --color-secundary:  rgb(161, 166, 181);
 
     --color-card-primary: rgba(88,54,179,1);
@@ -30,5 +30,6 @@
 }
 
 body{
+    transition: 0.2s ease-in;
     background-color: var(--color-secundary);
 }
