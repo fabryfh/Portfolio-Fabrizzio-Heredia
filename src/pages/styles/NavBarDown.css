@@ -26,14 +26,15 @@
 }
 
 .navBar__down__list{
-    transition: 0.2s ease-in;
     color: var(--color-font-primary);
     font-size: large;
     margin-top: 1em;
     width: 50px;
+    transition: 0.2s ease-in-out;
 }
 .navBar__down__list:hover{
     color: var(--color-font-secunday-dark);
+    transform: scale(1.5);
 }
 
 @media (min-width: 700px) {

@@ -2,10 +2,10 @@
   /**/
   :root{
     --color-font-primary: rgb(255, 255, 255);
-    --color-font-secunday-dark: rgb(255, 255, 255);
+    --color-font-secunday-dark: rgb(141, 188, 249);
     --color-font-third-dark: rgb(0, 0, 0);
     
-    --color-primary: rgb(60, 52, 114);
+    --color-primary: rgb(61, 49, 129);
     --color-secundary: rgb(255, 255, 255);
     
     --color-card-primary: rgba(184,222,255,1);
@@ -35,3 +35,43 @@ body{
     transition: 0.2s ease-in;
     background-color: var(--color-secundary);
 }
+
+/* Loader */
+
+/* .loader{
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 5px;
+    background: rgb(65, 247, 10);
+    font-size: medium;
+    border-radius: 50%;
+    animation: animation 1.5s linear infinite;
+}
+
+@keyframes animation{
+
+0%{
+    box-shadow: 0 0 0 0  rgb(65, 247, 10, .6), 0 0 0 0  rgb(65, 247, 10, .6);
+}
+
+30%{
+    box-shadow: 0 0 0 80px  rgb(65, 247, 10, .0), 0 0 0 0  rgb(65, 247, 10, .6);
+}
+
+65%{
+    box-shadow: 0 0 0 80px  rgb(65, 247, 10, .0), 0 0 0 50px  rgb(65, 247, 10, .0);
+}
+
+100%{
+    box-shadow: 0 0 0 0  rgb(65, 247, 10, .0), 0 0 0 50px  rgb(65, 247, 10, .0);
+}
+
+}
+
+
+.icon__loader{
+    height: 60px;
+    width: 60px;
+} */
