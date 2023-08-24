@@ -7,6 +7,11 @@ const NavBar = () => {
   return (
     <article className="navBar__father__container">
       <section className="navBar__container">
+
+        {/* <ul className="navBar__first__list__container close-nav-up">
+          
+        </ul> */}
+
         <div className="navBar__title">
           <Link to="/">
             <div className="navBar__name__container">
@@ -25,8 +30,9 @@ const NavBar = () => {
             </button>
           </div>
         </div>
+
         <ul className="navBar__list__container close-nav-up">
-          <Link to="/profile">
+        <Link to="/profile">
             <li className="navBar__list">Sobre mi</li>
             <li></li>
           </Link>
@@ -41,7 +47,6 @@ const NavBar = () => {
           </Link>
         </ul>
       </section>
-      
     </article>
   );
 };

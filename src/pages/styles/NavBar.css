@@ -22,7 +22,7 @@
 .navBar__name__container{
     font-size: x-large;
     gap: 0.2em;
-    font-weight: 200;
+    /* font-weight: 200; */
     transition: 0.2s ease-in;
     color: var(--color-font-primary);
     margin-top: -1em;
