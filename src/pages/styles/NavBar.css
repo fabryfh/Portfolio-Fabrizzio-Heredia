@@ -4,13 +4,16 @@
     grid-template-rows: 1fr 1fr;
     width: 100%;
     height: 150px;
-    /* padding-right: 1.5em; */
     justify-content: center;
     align-content: center;
     background-color: var(--color-primary);
     transition: 0.2s ease-in;
 }
+
+    /* NAVBAR NAME AND OPTIONS */
+
 .navBar__title{
+    /* border: 2px solid red; */
     width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -19,8 +22,11 @@
     margin-top: 5em;
 }
 
+        /* NAME */
+
 .navBar__name__container{
-    font-size: x-large;
+    /* border: 2px solid; */
+    font-size: 28px;
     gap: 0.2em;
     transition: 0.2s ease-in;
     color: var(--color-font-primary);
@@ -31,6 +37,17 @@
     color: var(--color-font-secunday-dark);
 }
 
+/* .navBar__first__name{
+    font-size: xx-large;
+    padding-right: 50px;
+}
+
+.navBar__last__name{
+    font-size: x-large;
+    padding-left: 50px;
+} */
+
+        /* OPTIONS */
 .navBar__list__container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -39,7 +56,7 @@
     text-align: center;
     gap: 0.3em;
     padding-left: 10px;
-    transition: 0.2s ease-in;
+    transition: 0.2s ease-in-out;
     color: var(--color-font-primary);
 }
 
@@ -49,12 +66,13 @@
 
 .navBar__btn__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 0.5em;
     padding: 0em 1em;
     transition: 0.2s ease-in;
+    
 }
 
 .navBar__btn{
@@ -91,8 +109,19 @@
         margin-top: 3.5em;        
     }
     .navBar__name__container{
-        font-size: x-large;
+        font-size: xx-large;
         display: flex;
         gap: 0.5em;
     }
+
+    .navBar__first__name{
+        /* font-size: xx-large; */
+        padding-right: 0px;
+    }
+    
+    .navBar__last__name{
+        /* font-size: x-large; */
+        padding-left: 0px;
+    }
+
 }

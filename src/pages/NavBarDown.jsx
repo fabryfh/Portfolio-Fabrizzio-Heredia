@@ -8,7 +8,7 @@ const NavBarDown = () => {
         <ul className="navBar__down__list__container close-nav-down">
           <Link to="/profile">
             <li className="navBar__down__list">
-              <span className="material-symbols-outlined">person</span>
+              <span className="material-symbols-outlined">contact_mail</span>
             </li>
           </Link>
           <Link to="/projects">
@@ -28,7 +28,7 @@ const NavBarDown = () => {
           </Link>
           <Link to="/contact">
             <li className="navBar__down__list">
-              <span className="material-symbols-outlined">contact_mail</span>
+            <span className="material-symbols-outlined" >person</span>
             </li>
           </Link>
         </ul>

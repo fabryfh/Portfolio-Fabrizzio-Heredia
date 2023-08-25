@@ -9,13 +9,13 @@
      margin-bottom: 2em;
     }
     
-    .icons__title {
-        /* border: 2px solid; */
-        display: grid;
-        font-size: xx-large;
-        gap: 1em;
-        color: var(--color-green);;
-        margin-bottom: -1.5em;
+.icons__title {
+    /* border: 2px solid; */
+    display: grid;
+    font-size: xx-large;
+    gap: 1em;
+    color: var(--color-font-third-dark);    margin-bottom: -1.5em;
+    transition: 0.2s ease-in-out;
 }
 
 .icons__groups {
@@ -31,30 +31,21 @@
     max-width: 170px;
     margin: auto;
     margin-top: 0.5em;
-    transition: 0.2s ease;
+    transition: 0.2s ease-in-out;
 }
 
 .icons__abilities:hover {
-    transform: scaleY(1.2);
+    transform: scale(1.1);
 }
 
 .description {
-    /* text-align: justify; */
-    /* opacity: 0; */
     font-size: 18px;
-    transition: opacity 0.5s;
     word-wrap: break-word;
     padding-top: 1em;
+    padding-bottom: 5em;
+    color: var(--color-font-third-dark);
   }
   
-  .iconos__groups:hover .iconos__container {
-    transform: translateY(0);
-  }
-  
-  .iconos__groups:hover .descripcion {
-    opacity: 1;
-    transition-delay: 0.25s;
-  }
   @media (min-width: 700px) {
     .icons__father__container {
         margin-top: 1em;
@@ -63,4 +54,7 @@
     .icons__abilities {
         max-width: 150px;
     }
+    .description {
+        padding-bottom: 1em;
+      }
 }
