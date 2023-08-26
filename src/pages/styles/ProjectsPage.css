@@ -7,7 +7,6 @@
      padding: 1em;
      justify-content: center;
      align-items: center;
-     margin-top: 1em;
      margin-bottom: 5em;
     }
     
@@ -15,7 +14,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    font-size: xx-large;
+    font-size: 2.2em;
     gap: 1em;
     color: var(--color-font-third-dark);   
     margin-bottom: -2em;
@@ -28,7 +27,7 @@
 }
 
 .project__groups {
-    /* border: 2px solid rgb(92, 92, 92); */
+    /* box-shadow: 0.1em 0em 1em 0em; */
     border-radius: 1em;
     width: 100%;
     height: 500px;
@@ -38,6 +37,7 @@
     transition: 0.5s ease-in-out;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: -2em;
 }
 .project__groups:hover {
     transform: scaleY(1.02);
@@ -95,7 +95,7 @@
 .project__image {
     border-radius: 1em;
     width: 100%;
-    height: 180px;
+    height: 175px;
     max-width: 90%;
     margin: auto;
     margin-top: 1.1em;
@@ -117,8 +117,7 @@
 
   @media (min-width: 700px) {
     .project__father__container {
-        margin-top: 1em;
-        margin-bottom: -1em;   
+        margin-bottom: 1em;   
     }
     .project__abilities {
         max-width: 150px;
