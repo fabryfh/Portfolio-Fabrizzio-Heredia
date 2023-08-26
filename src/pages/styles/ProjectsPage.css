@@ -27,11 +27,11 @@
 }
 
 .project__groups {
-    border: 2px solid rgb(92, 92, 92);
+    /* border: 2px solid rgb(92, 92, 92); */
     border-radius: 1em;
     width: 100%;
-    height: 420px;
-    max-width: 320px;
+    height: 500px;
+    max-width: 350px;
     align-items: center;
     text-align: center;
     transition: 0.2s ease-in-out;
@@ -43,18 +43,20 @@
     border-radius: 1em 1em 0em 0em;
     background-color: var(--color-primary);
     width: 100%;
-    height: 13.3em;
+    height: 16em;
 }
 .project__group__2{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    border-radius: 0em 0em 1em 1em;
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 100%;
-    height: 10em;
+    height: 15.2em;
+    background-color: var(--color-primary);
 }
 
 .project__btn__card__container{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -74,19 +76,23 @@
 .project__image {
     border-radius: 1em;
     width: 100%;
-    height: 130px;
+    height: 170px;
     max-width: 90%;
     margin: auto;
-    margin-top: 1em;
+    margin-top: 1.1em;
     transition: 0.2s ease-in-out;
 }
 
 
 .project__description {
-    border: 2px solid red;
-    font-size: 17px;
+    border: 2px solid rgb(92, 92, 92);
+    font-size: 20px;
     width: 100%;
     color: var(--color-font-third-dark);
+    background-color: var(--color-secundary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   @media (min-width: 700px) {
@@ -104,6 +110,22 @@
         width: 100%;
         height: 400px;
         max-width: 280px;
+    }
+    .project__image {
+        height: 140px;
+        max-width: 90%;
+        margin-top: 1.3em;
+    }
+    .project__group__1{
+        height: 14em;
+    }
+    .project__group__2{
+        border-radius: 0em 0em 1em 1em;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 11em;
+        background-color: var(--color-primary);
     }
 }
 
