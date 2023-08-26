@@ -1,4 +1,5 @@
-.icons__father__container {
+
+.project__father__container {
     display: flex;
     flex-wrap: wrap;
      gap: 3em;
@@ -9,7 +10,7 @@
      margin-bottom: 2em;
     }
     
-.icons__title {
+.project__title {
     /* border: 2px solid; */
     display: grid;
     font-size: xx-large;
@@ -18,26 +19,27 @@
     transition: 0.2s ease-in-out;
 }
 
-.icons__groups {
-    border: 2px solid;
+.project__groups {
+    border: 2px solid red;
     width: 100%;
     max-width: 350px;
     height: 250px;
     align-items: center;
     text-align: center;
+    transition: 0.2s ease-in-out;
 }
 
-.icons__abilities {
+.project__groups:hover {
+    transform: scale(1.05);
+}
+.project__image {
     width: 100%;
-    max-width: 170px;
+    max-width: 250px;
     margin: auto;
     margin-top: 0.5em;
     transition: 0.2s ease-in-out;
 }
 
-.icons__abilities:hover {
-    transform: scale(1.1);
-}
 
 .description {
     font-size: 18px;
@@ -48,11 +50,11 @@
   }
   
   @media (min-width: 700px) {
-    .icons__father__container {
+    .project__father__container {
         margin-top: 1em;
         margin-bottom: -1em;   
     }
-    .icons__abilities {
+    .project__abilities {
         max-width: 150px;
     }
     .description {
