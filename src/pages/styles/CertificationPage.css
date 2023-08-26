@@ -18,6 +18,8 @@
     text-align: center;
     color: var(--color-font-third-dark);    margin-bottom: -1.5em;
     transition: 0.2s ease-in-out;
+    margin-top: 0.5em;
+    margin-bottom: -2em;
 }
 
 .certif__groups {
@@ -30,7 +32,7 @@
 
 .certif__lag__imge{
     width: 100%;
-    max-width: 200px;
+    max-width: 180px;
     margin: auto;
     margin-top: 0.5em;
     transition: 0.2s ease-in-out;
@@ -69,7 +71,12 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     height: 5em;
-    margin-top: -4em;
+    margin-top: -5em;
+    transition: 0.2s ease-in-out;
+}
+
+.certif__downland__container:hover{
+    transform: scale(1.2);
 }
 .certif__download__title {
     font-size: large;
@@ -99,12 +106,16 @@
     transition: 0.2s ease-in;
 }
 .certif__btn__downlader1:hover{
-    box-shadow: 0.1em 0em 1em 0em;
+    box-shadow: 0.1em 0em 1em 0em var(--color-font-third-dark);
     transform: scale(1.01);
 }
 .certif__btn__downlader2:hover{
-    box-shadow: 0.1em 0em 1em 0em;
+    box-shadow: 0.1em 0em 1em 0em var(--color-font-third-dark);
     transform: scale(1.01);
+}
+
+.certif__btn__lyrics{
+    margin-top: 0.5em;
 }
   @media (min-width: 700px) {
     .certif__father__container {
@@ -118,11 +129,12 @@
         padding-bottom: 1em;
       }
      .certif__groups {
-        max-width: 650px;
+        max-width: 630px;
+        margin-top: 2em;
     }  
     .certif__lag__imge{
         width: 100%;
-        max-width: 300px;
+        max-width: 270px;
         margin: auto;
         margin-top: 0.5em;
         transition: 0.2s ease-in-out;
@@ -146,8 +158,8 @@
         font-size: xx-large;
     }
     .certif__downland__container{
-        width: 18em;
-        margin-top: 1em;
+        width: 19em;
+        margin-top: 1.5em;
     }
     .certif__download__title {
         margin-top: 0.2em;

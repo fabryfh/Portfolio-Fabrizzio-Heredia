@@ -24,7 +24,6 @@ const CertificationPage = () => {
             <p className="certif__description">
               Curzado y terminado con éxito los fundamentos en HTML, CSS3 y Javascript.
             </p>
-            <br />
           </div>
         </div>
 
@@ -51,11 +50,15 @@ const CertificationPage = () => {
       </div>
 
 
-      <div               className="certif__downland__container">
+      <div className="certif__downland__container">
         <h1 className="certif__download__title">Descargar CV</h1>
         <div className="certif__btn__container">
-        <button className="certif__btn__downlader1">ES</button>
-        <button className="certif__btn__downlader2">EN</button>
+        <a className="certif__btn__downlader1" href="./Cvs/Dev-FH-ES.pdf">
+        <p className="certif__btn__lyrics">ES</p>
+        </a>
+        <a className="certif__btn__downlader2" href="./Cvs/Dev-FH-EN.pdf">
+        <p className="certif__btn__lyrics">EN</p>
+        </a>
         </div>
         </div>
 
