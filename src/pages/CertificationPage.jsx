@@ -21,9 +21,7 @@ const CertificationPage = () => {
           </div>
           <div className="certif__img__descr2">
             <p className="certif__description">
-              {" "}
-              Conocimientos en html que es el código que se utiliza para
-              estructurar y desplegar una página web y sus contenidos.
+              Curzado y terminado con éxito los fundamentos en HTML, CSS3 y Javascript.
             </p>
           </div>
         </div>
@@ -43,8 +41,7 @@ const CertificationPage = () => {
           </div>
           <div className="certif__img__descr2">
             <p className="certif__description">
-              Tengo los fundamentos en Javascript que es el código que nos
-              permite dar la funcionalidad de forma lógica a las páginas.
+            Curzado y terminado con éxito el módulo de la librería de React.
             </p>
           </div>
         </div>

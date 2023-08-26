@@ -45,7 +45,7 @@
 }
 
 .certif__lag__imge:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .certif__lag__imge2:hover {
     transform: scale(1.1);
@@ -74,4 +74,11 @@
     .description {
         padding-bottom: 1em;
       }
+      
+.certif__lag__imge:hover {
+    transform: scale(1.3);
+}
+.certif__lag__imge2:hover {
+    transform: scale(1.1);
+}
 }
