@@ -19,10 +19,12 @@ const CertificationPage = () => {
               alt=""
             />
           </div>
+          <br />
           <div className="certif__img__descr2">
             <p className="certif__description">
               Curzado y terminado con éxito los fundamentos en HTML, CSS3 y Javascript.
             </p>
+            <br />
           </div>
         </div>
 
@@ -40,12 +42,24 @@ const CertificationPage = () => {
             />
           </div>
           <div className="certif__img__descr2">
+            <br />
             <p className="certif__description">
             Curzado y terminado con éxito el módulo de la librería de React.
             </p>
           </div>
         </div>
       </div>
+
+
+      <div               className="certif__downland__container">
+        <h1 className="certif__download__title">Descargar CV</h1>
+        <div className="certif__btn__container">
+        <button className="certif__btn__downlader1">ES</button>
+        <button className="certif__btn__downlader2">EN</button>
+        </div>
+        </div>
+
+
     </div>
   );
 };
