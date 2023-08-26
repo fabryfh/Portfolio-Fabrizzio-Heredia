@@ -1,7 +1,7 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import ProjectsPage from './pages/ProjectsPage'
-import ProfilePage from './pages/ProfilePage'
+import CertificationPage from './pages/CertificationPage'
 import TranslatePage from './pages/TranslatePage'
 import Page404 from './pages/Page404'
 import NavBar from './pages/NavBar'
@@ -17,7 +17,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<MainInfo/>}/>
-        <Route path='/profile' element={<ProfilePage/>}/>
+        <Route path='/certification' element={<CertificationPage/>}/>
         <Route path='/projects' element={<ProjectsPage/>}/>
         <Route path='/translate' element={<TranslatePage/>}/>
         <Route path='/contact' element={<ContactPage/>}/>

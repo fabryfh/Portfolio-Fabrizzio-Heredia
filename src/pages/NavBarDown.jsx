@@ -6,7 +6,7 @@ const NavBarDown = () => {
     <article>
       <section>
         <ul className="navBar__down__list__container close-nav-down">
-          <Link to="/profile">
+          <Link to="/certification">
             <li className="navBar__down__list">
               <span className="material-symbols-outlined">contact_mail</span>
             </li>
