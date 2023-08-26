@@ -24,10 +24,15 @@ const ProjectsPage = () => {
               </p>
               <div className="project__btn__card__container">
                 <button className="project__btn__card">
-                <i class='bx bx-link-alt bx-md'></i>
+               <a href="https://bright-stardust-dc5df0.netlify.app/">
+                <i className='bx bx-link-alt bx-md'>  
+                </i>
+               </a>
                 </button>
                 <button className="project__btn__card">
-                <i class='bx bxl-github bx-md'></i>
+                  <a href="https://github.com/fabryfh/E-commerce-finaL.git">
+                <i className='bx bxl-github bx-md'></i>
+                  </a>
                 </button>
               </div>
             </div>
@@ -45,9 +50,21 @@ const ProjectsPage = () => {
 
             <div className="project__group__2">
               <p className="project__description">
-                Tengo los fundamentos en Javascript que es el código que nos
-                permite dar la funcionalidad de forma lógica a las páginas.
+                Es un pequeño juego que cada vez que se da un click, da una frase diferente al igual que cambia el fondo.
               </p>
+              <div className="project__btn__card__container">
+                <button className="project__btn__card">
+               <a href="https://649cc38e499347087af470af--frolicking-gelato-7a07ef.netlify.app/">
+                <i className='bx bx-link-alt bx-md'>  
+                </i>
+               </a>
+                </button>
+                <button className="project__btn__card">
+                  <a href="https://github.com/fabryfh/PrimerProyectoCookieFort.git">
+                <i className='bx bxl-github bx-md'></i>
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -62,10 +79,21 @@ const ProjectsPage = () => {
             </div>
             <div className="project__group__2">
               <p className="project__description">
-                Facilidad y buen desempeño en CSS3 que es el código que permite
-                dar los estilos visuales a la página o app haciendolas
-                completamente responsivas.
+                Es una app que permite revisar la temperatura con geologalización en tiempo real.
               </p>
+              <div className="project__btn__card__container">
+                <button className="project__btn__card">
+               <a href="https://main--hilarious-boba-e01408.netlify.app/">
+                <i className='bx bx-link-alt bx-md'>  
+                </i>
+               </a>
+                </button>
+                <button className="project__btn__card">
+                  <a href="https://github.com/fabryfh/ProyectoWeatherApp.git">
+                <i className='bx bxl-github bx-md'></i>
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -81,17 +109,27 @@ const ProjectsPage = () => {
           </div>
           <div className='project__group__2'>
             <p className="project__description">
-              {" "}
-              Excelente desenvolvimiento usando React que es la librería que
-              permite desarrollar páginas web combinando todas las hablidades ya
-              mencionadas.
+              Es una página que permite ver el estado actual de todos los personajes del programa actalizado.
             </p>
+            <div className="project__btn__card__container">
+                <button className="project__btn__card">
+               <a href="https://main--eloquent-tiramisu-3a8586.netlify.app/">
+                <i className='bx bx-link-alt bx-md'>  
+                </i>
+               </a>
+                </button>
+                <button className="project__btn__card">
+                  <a href="https://github.com/fabryfh/Rick_-_Morty_FHR.git">
+                <i className='bx bxl-github bx-md'></i>
+                  </a>
+                </button>
+              </div>
           </div>
           </div>
 
           <div className="project__groups transUp">
           <div className='project__group__1'>
-            <p className="project__title__cards"> E-commerce Vanilla</p>
+            <p className="project__title__cards"> Formas de base de datos</p>
             <img
               className="project__image"
               src="/images/imge/img-9.png"
@@ -101,17 +139,26 @@ const ProjectsPage = () => {
           
         <div className='project__group__2'>
             <p className="project__description">
-              {" "}
-              Conocimientos en Note Js que es un código abierto,
-              multi-plataforma que permite la construcción las herramientas
-              usadas en el desarrollo de apps y páginas desde el lado de los
-              servidores.
+              Es una app que permite crear nuevos usuarios llenando formas.
             </p>
+            <div className="project__btn__card__container">
+                <button className="project__btn__card">
+               <a href="https://main--meek-melomakarona-04a3be.netlify.app/">
+                <i className='bx bx-link-alt bx-md'>  
+                </i>
+               </a>
+                </button>
+                <button className="project__btn__card">
+                  <a href="https://github.com/fabryfh/Entregable_4.git">
+                <i className='bx bxl-github bx-md'></i>
+                  </a>
+                </button>
+              </div>
         </div>
           </div>
           <div className="project__groups transUp">
           <div className='project__group__1'>
-            <p className="project__title__cards"> E-commerce Vanilla</p>
+            <p className="project__title__cards"> Pokédex</p>
             <img
               className="project__image"
               src="/images/imge/img-11.png"
@@ -120,12 +167,21 @@ const ProjectsPage = () => {
           </div>
           <div className='project__group__2'>
             <p className="project__description">
-              {" "}
-              Conocimientos en Note Js que es un código abierto,
-              multi-plataforma que permite la construcción las herramientas
-              usadas en el desarrollo de apps y páginas desde el lado de los
-              servidores.
+              Es una Pokédex que permite consultas los datos completos todos los pokemons.
             </p>
+            <div className="project__btn__card__container">
+                <button className="project__btn__card">
+               <a href="https://pokemon-app-fabrizzio-heredia.netlify.app/#/">
+                <i className='bx bx-link-alt bx-md'>  
+                </i>
+               </a>
+                </button>
+                <button className="project__btn__card">
+                  <a href="https://github.com/fabryfh/PokeApi.git">
+                <i className='bx bxl-github bx-md'></i>
+                  </a>
+                </button>
+              </div>
           </div>
           </div>
         </div>
