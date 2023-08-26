@@ -73,11 +73,22 @@
     height: 5em;
     margin-top: -5em;
     transition: 0.2s ease-in-out;
+    animation: bounce1 1s alternate infinite ease-in-out;
 }
 
 .certif__downland__container:hover{
     transform: scale(1.2);
 }
+@keyframes bounce1{
+    0%{
+        transform: translateY(15%);
+    }
+    100%{
+        transform: translateY(5%);
+    }
+}
+
+
 .certif__download__title {
     font-size: large;
     margin-top: 0.5em;

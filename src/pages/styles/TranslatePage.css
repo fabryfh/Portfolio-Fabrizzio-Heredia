@@ -31,7 +31,17 @@
     max-width: 170px;
     margin: auto;
     margin-top: 0.5em;
-    transition: 0.2s ease-in-out;
+    animation: bounce1 1s alternate infinite ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+@keyframes bounce1{
+    0%{
+        transform: translateY(15%);
+    }
+    100%{
+        transform: translateY(5%);
+    }
 }
 
 .icons__abilities:hover {
