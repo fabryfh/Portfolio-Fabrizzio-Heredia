@@ -29,7 +29,7 @@ const NavBar = () => {
 
         <ul className="navBar__list__container close-nav-up">
         <Link to="/certification">
-            <li className="navBar__list">Certificaciones</li>
+            <li className="navBar__list">Certificados</li>
             <li></li>
           </Link>
           <Link to="/projects">
