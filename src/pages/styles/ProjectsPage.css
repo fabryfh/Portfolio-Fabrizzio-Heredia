@@ -38,6 +38,10 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+.project__groups:hover {
+    transform: scale(1.02);
+    box-shadow: 0.1em 0.3em 1em 0em;
+}
 
 .project__group__1{
     border-radius: 1em 1em 0em 0em;
@@ -68,10 +72,15 @@
 
 .project__btn__card{
     border-radius: 0.5em;
+    color: var(--color-font-third-dark);
+    background-color: var(--color-secundary);
+    transition: 0.2s ease-in;
 }
 
-.project__groups:hover {
-    transform: scale(1.05);
+
+.project__btn__card:hover {
+    /* transform: scale(1.02); */
+    box-shadow: 0.1em 0em 1em 0em;
 }
 .project__image {
     border-radius: 1em;
@@ -130,3 +139,7 @@
 }
 
 
+
+a{
+text-decoration: none;
+}
