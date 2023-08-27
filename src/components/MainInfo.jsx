@@ -24,7 +24,7 @@ const MainInfo = () => {
 
               <li className="contact__item">
                 <a
-                  href="https://wa.me/573183769205"
+                  href="https://wa.me/593961475180"
                   target="_blank"
                   className="contact__link"
                 >
@@ -44,7 +44,7 @@ const MainInfo = () => {
 
               <li className="contact__item">
                 <a
-                  href="https://github.com/JavierOspina07"
+                  href="https://github.com/fabryfh"
                   target="_blank"
                   className="contact__link"
                 >
@@ -54,7 +54,8 @@ const MainInfo = () => {
 
               <li className="contact__item">
                 <a
-                  href="/documents/CV_AH_JavierOspina.pdf"
+                  href="./Cvs/Dev-FH-ES.pdf"
+                  // href="./Cvs/Dev-FH-EN.pdf"
                   target="_blank"
                   className="contact__link"
                   download={""}

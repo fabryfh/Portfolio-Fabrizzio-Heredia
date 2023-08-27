@@ -12,7 +12,7 @@
     --color-card-primary: rgba(184,222,255,1);
     --color-card-secundary: rgba(229,242,255,1);
 
-    --color-button: #38a0d8;
+    --color-button: #1cef5b;
     
     transition: 0.5s ease-in-out;
 }
@@ -27,7 +27,7 @@
     --color-card-primary: rgba(88,54,179,1);
     --color-card-secundary:  rgba(54,42,132,1);
    
-    --color-button: #7d69f1;
+    --color-button: #1cef5b;
 
     
 }
