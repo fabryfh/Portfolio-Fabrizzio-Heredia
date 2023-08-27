@@ -10,15 +10,16 @@ const MainInfo = () => {
         <div className="contact__container">
         <div className='home__title'>
           <div>
-          <h1 className='title__one animated pulse'>SOY DESARROLLADOR FULL STACK
+          <h1 className='title__one animated pulse'>DESARROLLADOR FULL STACK
           </h1>
+          <h3 className='title__presentation           animated zoomIn'>Mi nombre es Fabrizzio Heredia y soy un entusiasta de la programación! </h3>
           </div>  
         </div>
         </div>
-        
+
       </section>
       <footer>
-        <div className="contact__container__footer">
+        <div className="contact__container__footer animated slideInUp">
           <h1 className="contact__container__title">
             Contactos
           </h1>

@@ -5,9 +5,9 @@
     --color-font-secunday-dark: rgb(141, 188, 249);
     --color-font-third-dark: rgb(0, 0, 0);
     
-    --color-primary: rgb(39, 65, 138);
+    --color-primary: rgba(39, 65, 138, 0.956);
     /* --color-primary: rgb(64, 49, 149); */
-    --color-secundary: rgb(241, 244, 247);
+    --color-secundary: rgb(237, 237, 237);
     
     --color-card-primary: rgba(184,222,255,1);
     --color-card-secundary: rgba(229,242,255,1);
@@ -29,7 +29,10 @@
    
     --color-btn-box:rgb(255, 255, 255);
 
-    
+    .title__one{
+
+        box-shadow: 0.1em 0em 1em 0em var(--color-font-third-dark);
+    } 
 }
 
 body{
