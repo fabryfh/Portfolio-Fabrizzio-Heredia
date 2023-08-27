@@ -1,5 +1,93 @@
-.contact__container{
+/* Maininfo part  */
+.home__title {
     border: 2px solid;
+   display: inline-flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   width: 100%;
+   margin: auto;
+}
+
+
+.title__one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    color: var(--color-font-third-dark);
+} 
+
+@-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+            
+/*RESPONSIVE*/
+@media (min-width: 740px) {
+    .home__title {
+        display: flex;
+    }
+
+    .title__one {
+        width: 90%;
+        font-size: 6em;
+        margin-left: 0.5em;
+    }
+}
+
+
+
+/* contact part */
+.contact__container{
+    /* border: 2px solid; */
     height: 17em;
     display: flex;
     justify-content: center;

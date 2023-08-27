@@ -1,10 +1,21 @@
 import "./styles/MainInfo.css";
+import { Link } from "react-router-dom";
+
 
 const MainInfo = () => {
   return (
     <article>
       <section>
-        <div className="contact__container">Portfolio borrador</div>
+
+        <div className="contact__container">
+        <div className='home__title'>
+          <div>
+          <h1 className='title__one animated pulse'>SOY DESARROLLADOR FULL STACK
+          </h1>
+          </div>  
+        </div>
+        </div>
+        
       </section>
       <footer>
         <div className="contact__container__footer">
