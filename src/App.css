@@ -7,7 +7,7 @@
     
     --color-primary: rgb(39, 65, 138);
     /* --color-primary: rgb(64, 49, 149); */
-    --color-secundary: rgb(255, 255, 255);
+    --color-secundary: rgb(202, 225, 250);
     
     --color-card-primary: rgba(184,222,255,1);
     --color-card-secundary: rgba(229,242,255,1);
@@ -21,8 +21,8 @@
     --color-font-secunday-dark: rgb(161, 166, 181);
     --color-font-third-dark: rgb(255, 255, 255);
     
-    --color-primary: rgb(49, 49, 49);
-    --color-secundary:  rgb(104, 104, 104);
+    --color-primary: rgba(1, 16, 31, 0.868);
+    --color-secundary:  rgba(31, 45, 67, 0.962);
 
     --color-card-primary: rgba(88,54,179,1);
     --color-card-secundary:  rgba(54,42,132,1);

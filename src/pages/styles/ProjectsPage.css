@@ -104,7 +104,7 @@
 
 
 .project__description {
-    border: 2px solid rgb(92, 92, 92);
+    border: 2px solid var(--color-primary);
     font-size: 19px;
     width: 100%;
     color: var(--color-font-third-dark);
