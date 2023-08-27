@@ -36,9 +36,7 @@
 }
 .bx {
     border-radius: 0.1em;
-    /* color:var(--color-font-third-dark); */
-    color: var(--color-primary);
-    /* background-color: var(--color-primary); */
+    color: var(--color-btn-box);
 }
 
 @media (min-width: 700px) {
