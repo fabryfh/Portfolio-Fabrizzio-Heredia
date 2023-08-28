@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className="navBar__title">
           <Link to="/">
             <div className="navBar__name__container">
-              <h1 className="navBar__first__name">Fabrizzio Heredia
+              <h1 className="navBar__first__name">Portafolio
               </h1>
               {/* <h3 className="navBar__last__name">Heredia</h3> */}
             </div>

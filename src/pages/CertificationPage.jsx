@@ -53,10 +53,18 @@ const CertificationPage = () => {
       <div className="certif__downland__container">
         <h1 className="certif__download__title">Descargar CV</h1>
         <div className="certif__btn__container">
-        <a className="certif__btn__downlader1" href="./Cvs/Dev-FH-ES.pdf">
+        <a className="certif__btn__downlader1" href="./Cvs/Dev-FH-ES.pdf"
+        target="_blank"
+        download={""}
+        >
+          
+
         <p className="certif__btn__lyrics">ES</p>
         </a>
-        <a className="certif__btn__downlader2" href="./Cvs/Dev-FH-EN.pdf">
+        <a className="certif__btn__downlader2" href="./Cvs/Dev-FH-EN.pdf"                  
+        target="_blank"
+        download={""}
+        >
         <p className="certif__btn__lyrics">EN</p>
         </a>
         </div>
