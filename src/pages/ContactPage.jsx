@@ -3,13 +3,13 @@ import './styles/ContactPage.css'
 
 const ContactPage = () => {
   return (
-    <div className="form__container">
+    <div className="form__container animated pulse">
     <form className="form" >
       <h1 className="heading">Contacto</h1>
       <div>
         <input
           className="input"
-          placeholder="contact.name"
+          placeholder="Nombre completo"
           
           type="text"
           id="firstname"
@@ -18,7 +18,7 @@ const ContactPage = () => {
       <div>
         <input
           className="input"
-          placeholder="contact.lastname"
+          placeholder="Tema del proyecto"
         
           type="text"
           id="lastname"
@@ -27,7 +27,7 @@ const ContactPage = () => {
       <div>
         <input
           className="input"
-          placeholder="contact.email"
+          placeholder="Correo"
           
           type="email"
           id="email"
@@ -36,13 +36,13 @@ const ContactPage = () => {
       <div>
         <input
           className="input"
-          placeholder="contact.phone"
+          placeholder="Número telefónico"
           
           type="text"
           id="phone"
         />
       </div>
-      <button className="btn">("contact.sendto")</button>
+      <button className="btn">Enviar</button>
     </form>
   </div>
   )
